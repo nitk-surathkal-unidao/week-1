@@ -40,8 +40,8 @@ console.log(toHex(aHash) === toHex(bHash)); // false
 
 2. Clone your forked repository to your local machine:
    ```
-   git clone https://github.com/your-username/repository-name.git
-   cd repository-name
+   git clone https://github.com/nitk-surathkal-unidao/week-1.git
+   cd week-1
    ```
 
 3. Create a new branch for your implementation:
@@ -62,6 +62,9 @@ console.log(toHex(aHash) === toHex(bHash)); // false
    ```
 
 7. Keep modifying your implementation until all tests pass.
+
+   ![Screenshot 2024-09-07 at 23 02 49](https://github.com/user-attachments/assets/a9fb4f3c-f573-4a1c-825e-ab46508e09bd)
+
 
 ## Submitting Your Solution
 
