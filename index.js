@@ -6,7 +6,14 @@ const COLORS = ['red', 'green', 'blue', 'yellow', 'pink', 'orange'];
 
 // given a hash, return the color that created the hash
 function findColor(hash) {
-    // code here
+    let result = undefined;
+    for(let i =0;i<COLORS.length;i++){
+        const color_byte = utf8ToBytes(COLORS[i]);
+        const color_hash = sha256(color_byte);
+        if(toHex(color_hash) == toHex(hash))
+            result = COLORS[i];
+    }
+    return result;
 }
 
 module.exports = findColor;
