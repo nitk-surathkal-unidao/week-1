@@ -15,6 +15,7 @@ function findColor(hash) {
         }
     }
     return null;
+    
 }
 
 module.exports = findColor;
