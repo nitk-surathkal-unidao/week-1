@@ -1,12 +1,12 @@
-#Week-1 Assignment
+# Week-1 Assignment
 
-##In this update, I have used two key functions for color hashing and retrieval:
+## In this update, I have used two key functions for color hashing and retrieval:
 
-###findColor(hash):
+### findColor(hash):
 
 This function retrieves the color corresponding to a given hash from the pre-defined color set in the index.js . It uses a Map datastructure to store the mappings of hash - color and returns the color if found, or null if the hash does not match any color.
 
-###findColor_in_colorWithSalt(hash):
+### findColor_in_colorWithSalt(hash):
 
 This function retrieves the color with salt from a separate Map where colors are stored with additional random salt. It returns the color and salt if found, or null otherwise.
 
