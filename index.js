@@ -9,12 +9,12 @@ function findColor(hash) {
     // code here
     for(col of COLORS){
         const colBytes=utf8ToBytes(col);
-        const colHash=sha256(col);
+        const colHash=sha256(colBytes);
         if(toHex(colHash)===toHex(hash)){
             return col;
         }
-        return null;
     }
+    return null;
 }
 
 module.exports = findColor;
