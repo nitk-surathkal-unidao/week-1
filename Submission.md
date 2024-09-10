@@ -14,16 +14,17 @@ This function retrieves the color with salt from a separate Map where colors are
 
 <br>
 
-Additionally, I have addressed the following challenges:
+### Issues Solved
+Additionally, I have addressed the following issues:
 
-### Case Sensitivity:
+Case Sensitivity:
 permits only exact matches.
 
 Testing any unusual input
 return null for the inputs that weren't found in COLORS array.
 
 Ooff... and the 
-Challenges Faced:
+### Challenges Faced:
 Implemented  try and catch block wherever the assertions went wrong and it was a hard time - availing some time for my interest in blockchain against hectic schedule of the week xd...
 
 New topics learnt:
