@@ -13,7 +13,7 @@ function findColor(hash) {
         const colorHexHash = toHex(colorHash);
 
         if (colorHexHash === toHex(hash)) {
-            return color; // Return the matching color
+            return color; 
         }
     }
 }
