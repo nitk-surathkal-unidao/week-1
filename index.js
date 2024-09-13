@@ -19,5 +19,3 @@ function findColor(hash) {
   return null;
 }
 module.exports = findColor;
-git remote set-url origin https://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@github.com/spkap/
-week-1.git
